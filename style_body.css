@@ -1,11 +1,29 @@
 body{
     display: flex;align-items: center;
     display: flex;
+    /*justificar conteudo*/
     justify-content: center;
+    /*alinhar itensd*/
     align-items: center;
     height: 100vh;
 }
 
 form{
+    /*aumenta o tamanho do formulario na tela*/
     width: 300px;
 }
+
+
+ footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+ 
